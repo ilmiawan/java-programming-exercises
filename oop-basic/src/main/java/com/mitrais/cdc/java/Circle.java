@@ -3,6 +3,14 @@ package com.mitrais.cdc.java;
 public class Circle  {
 
 	public double radius;
+	
+	public Circle(double radius){
+		this.radius = radius;
+	}
+	
+	public double getArea(){
+		return ((Math.PI)*radius*radius);
+	}
 
 	/*
 	 * todo: make a Circle class with various capabilities below:
